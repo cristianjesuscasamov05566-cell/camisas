@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedidos | Nayarit Jerseys</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header class="encabezado-rojo">
+        <span class="etiqueta">Atención Directa</span>
+        <h1>HAZ TU PEDIDO</h1>
+        <p>Aparta tu jersey de temporada o edición retro con tu talla favorita</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Portada</a>
+        <a href="cat.html">Tienda</a>
+        <a href="nosotros.html">Historia</a>
+        <a href="retro.html">Clásicos</a>
+        <a href="contacto.html" class="activo">Pedidos</a>
+    </nav>
+
+    <main>
+        <h2>Solicita tu Jersey</h2>
+        <p><strong>Ubicación:</strong> Av. Insurgentes #420, Centro, Tepic, Nayarit.</p>
+        <p><strong>Horario:</strong> Lunes a Sábado de 10:00 AM a 8:00 PM.</p>
+
+        <form action="#" method="post">
+            <label for="nombre">Nombre completo:</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Ej. Carlos Mendoza" required>
+
+            <label for="contacto">Teléfono o correo:</label>
+            <input type="text" id="contacto" name="contacto" placeholder="Ej. 311 123 4567" required>
+
+            <label for="talla">Talla:</label>
+            <select id="talla" name="talla">
+                <option value="CH">Chica (CH)</option>
+                <option value="M" selected>Mediana (M)</option>
+                <option value="G">Grande (G)</option>
+                <option value="EG">Extra Grande (EG)</option>
+            </select>
+
+            <label for="detalles">Modelo, jugador o retro deseado:</label>
+            <textarea id="detalles" name="detalles" rows="4" placeholder="Ej. AC Milan 2006/07 Kaká #22 talla M o Chivas Local" required></textarea>
+
+            <button type="submit">Enviar Solicitud</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Nayarit Jerseys - Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
